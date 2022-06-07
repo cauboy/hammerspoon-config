@@ -8,3 +8,5 @@ hs.hotkey.bind(c.CmdAltCtrl, 'escape', function()
     hs.reload()
     hs.alert.show("Config loaded")
 end)
+
+hs.hotkey.showHotkeys("⌃", "f1")
